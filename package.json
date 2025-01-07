@@ -1,13 +1,13 @@
 {
     "name": "@inquired-dev/pdf-flatten",
-    "version": "0.1.9",
+    "version": "0.1.8",
     "description": "A nodejs module for flattening a PDF file, based off pdf-flatten, by Josh Waite",
     "author": "Robert Rico",
     "license": "MIT",
     "homepage": "https://github.com/inquired-dev/pdf-flatten",
     "repository": {
         "type": "git",
-        "url": "https://github.com/inquired-dev/pdf-flatten"
+        "url": "git+https://github.com/inquired-dev/pdf-flatten.git"
     },
     "dependencies": {
         "async": "^2.6.2",
@@ -25,7 +25,7 @@
     },
     "main": "index.js",
     "scripts": {
-        "test": "./node_modules/.bin/mocha --reporter spec --timeout 10000",
+        "test": "mocha --reporter spec --timeout 10000",
         "publish": "npm publish"
     },
     "keywords": [
