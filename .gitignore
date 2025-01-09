@@ -4,3 +4,4 @@ test/output
 example
 .DS_Store
 .vscode/settings.json
+.npmrc
