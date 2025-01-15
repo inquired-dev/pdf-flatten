@@ -1,34 +1,35 @@
 {
-  "name": "pdf-flatten",
-  "version": "0.1.7",
-  "description": "A nodejs module for flattening a PDF file",
-  "author": "Joshua Waite",
-  "license": "MIT",
-  "homepage": "https://github.com/joshuakwaite/pdf-flatten",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/joshuakwaite/pdf-flatten"
-  },
-  "dependencies": {
-    "async": "^2.6.2",
-    "gm": "^1.23.1",
-    "muhammara": "^4.1.0",
-    "rimraf": "^2.6.3"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^6.0.2"
-  },
-  "bugs": {
-    "url": "https://github.com/joshuakwaite/pdf-flatten/issues"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec",
-    "publish": "npm publish"
-  },
-  "keywords": [
-    "flatten pdf",
-    "pdf flatten"
-  ]
+    "name": "@inquired-dev/pdf-flatten",
+    "version": "0.1.9",
+    "description": "A nodejs module for flattening a PDF file, based off pdf-flatten, by Josh Waite",
+    "author": "Robert Rico",
+    "license": "MIT",
+    "homepage": "https://github.com/inquired-dev/pdf-flatten",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inquired-dev/pdf-flatten.git"
+    },
+    "dependencies": {
+        "async": "^2.6.2",
+        "gm": "github:inquired-dev/gm",
+        "muhammara": "^5.2.0",
+        "rimraf": "^2.6.3"
+    },
+    "devDependencies": {
+        "chai": "^4.3.0",
+        "mocha": "^10.8.2"
+    },
+    "bugs": {
+        "url": "https://github.com/inquired-dev/pdf-flatten/issues"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha --reporter spec --timeout 10000",
+        "publish": "npm publish"
+    },
+    "keywords": [
+        "flatten pdf",
+        "pdf flatten"
+    ],
+    "types": "index.d.ts"
 }

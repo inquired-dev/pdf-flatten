@@ -49,9 +49,9 @@ flattener.flatten(inputBuffer, {density: 600}).then(res => {
 ```
 
 ## Maintainer
-[Josh Waite][0]
+[Rob Rico][0]
 
 ## License
 MIT
 
-[0]: https://github.com/joshuakwaite
+[0]: https://github.com/inquired-dev
